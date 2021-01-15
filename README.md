@@ -1,7 +1,8 @@
-# Stealth_Game_UE
- Creating a simple Multiplayer stealth game using C++ in Unreal Engine 
+<h1 align="center"> Stealth Game on Unreal Engine </h1>
 
 
-* Project 1 - Udemy Course
+ <p align="center"> ######################################################## </p>
+     
+     Creating a simple Multiplayer stealth game using C++ in Unreal Engine for my project 1 - Udemy Course
 
 
