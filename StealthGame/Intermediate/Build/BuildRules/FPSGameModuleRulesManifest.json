@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\StealthGame\\Source\\FPSGame\\FPSGame.Build.cs",
-		"F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\StealthGame\\Source\\FPSGame.Target.cs",
-		"F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\StealthGame\\Source\\FPSGameEditor.Target.cs"
+		"F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\Stealth_Game_UE\\StealthGame\\Source\\FPSGame\\FPSGame.Build.cs",
+		"F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\Stealth_Game_UE\\StealthGame\\Source\\FPSGame.Target.cs",
+		"F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\Stealth_Game_UE\\StealthGame\\Source\\FPSGameEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }

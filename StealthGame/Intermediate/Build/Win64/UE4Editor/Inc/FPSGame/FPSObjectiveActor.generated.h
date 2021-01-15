@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPSGAME_FPSObjectiveActor_generated_h
 
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_SPARSE_DATA
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_RPC_WRAPPERS
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_INCLASS_NO_PURE_DECLS \
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_SPARSE_DATA
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_RPC_WRAPPERS
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSObjectiveActor(); \
 	friend struct Z_Construct_UClass_AFPSObjectiveActor_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AFPSObjectiveActor)
 
 
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_INCLASS \
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAFPSObjectiveActor(); \
 	friend struct Z_Construct_UClass_AFPSObjectiveActor_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AFPSObjectiveActor)
 
 
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_STANDARD_CONSTRUCTORS \
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFPSObjectiveActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFPSObjectiveActor) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_ENHANCED_CONSTRUCTORS \
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFPSObjectiveActor(AFPSObjectiveActor&&); \
@@ -58,28 +58,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSObjectiveActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFPSObjectiveActor)
 
 
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_PRIVATE_PROPERTY_OFFSET
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_9_PROLOG
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_GENERATED_BODY_LEGACY \
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(AFPSObjectiveActor, MeshComp); } \
+	FORCEINLINE static uint32 __PPO__SphereComp() { return STRUCT_OFFSET(AFPSObjectiveActor, SphereComp); }
+
+
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_11_PROLOG
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_SPARSE_DATA \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_RPC_WRAPPERS \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_INCLASS \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_STANDARD_CONSTRUCTORS \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_SPARSE_DATA \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_RPC_WRAPPERS \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_INCLASS \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_GENERATED_BODY \
+#define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_SPARSE_DATA \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_INCLASS_NO_PURE_DECLS \
-	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_12_ENHANCED_CONSTRUCTORS \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_SPARSE_DATA \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_INCLASS_NO_PURE_DECLS \
+	StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
