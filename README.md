@@ -3,6 +3,6 @@
 
  <p align="center"> ######################################################## </p>
      
-     Creating a simple Multiplayer stealth game using C++ in Unreal Engine for my project 1 - Udemy Course
+     Creating a simple multiplayer stealth game using C++ in Unreal Engine for my project 1 - Udemy Course
 
 
