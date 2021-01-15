@@ -38,6 +38,11 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsCarryingObjective_MetaData[];
+#endif
+		static void NewProp_bIsCarryingObjective_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsCarryingObjective;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireAnimation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireAnimation;
@@ -76,6 +81,19 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		{ "ModuleRelativePath", "Public/FPSCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bIsCarryingObjective_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "Comment", "/** To check if the player is carrying an Objective */" },
+		{ "ModuleRelativePath", "Public/FPSCharacter.h" },
+		{ "ToolTip", "To check if the player is carrying an Objective" },
+	};
+#endif
+	void Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bIsCarryingObjective_SetBit(void* Obj)
+	{
+		((AFPSCharacter*)Obj)->bIsCarryingObjective = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bIsCarryingObjective = { "bIsCarryingObjective", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AFPSCharacter), &Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bIsCarryingObjective_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bIsCarryingObjective_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bIsCarryingObjective_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FireAnimation_MetaData[] = {
 		{ "Category", "Gameplay" },
@@ -134,6 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_Mesh1PComponent = { "Mesh1PComponent", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSCharacter, Mesh1PComponent), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_Mesh1PComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_Mesh1PComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFPSCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bIsCarryingObjective,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FireSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ProjectileClass,
@@ -168,7 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSCharacter, 1123571937);
+	IMPLEMENT_CLASS(AFPSCharacter, 1185191303);
 	template<> FPSGAME_API UClass* StaticClass<AFPSCharacter>()
 	{
 		return AFPSCharacter::StaticClass();
