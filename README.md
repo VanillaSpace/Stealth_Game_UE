@@ -2,6 +2,6 @@
  Creating a simple Multiplayer stealth game using C++ in Unreal Engine 
 
 
-* Project 1
+* Project 1 - Udemy Course
 
-Udemy Course
+
