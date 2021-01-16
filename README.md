@@ -1,4 +1,4 @@
-<h1 align="center"> Stealth Game on Unreal Engine </h1>
+<h1 align="center"> Stealth Game on Unreal Engine C++ </h1>
      
      When you focus too long on the same project its always nice to take a brain break and work on something different, I am creating a simple multiplayer stealth game using C++ in Unreal Engine for a Udemy Course while currently working on my personal project, Paprika.
 
