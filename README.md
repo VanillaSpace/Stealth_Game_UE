@@ -4,3 +4,4 @@
 
 ## Current Features
 ![extractionZone](https://user-images.githubusercontent.com/26191487/104798441-d4afcf00-5794-11eb-836a-7b31c4dd3117.png)
+     Extraction Zone - After the player collects the loot/treasure
