@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "FPSGame",
-			"Path": "F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\StealthGame\\Source\\FPSGame.Target.cs",
+			"Path": "F:\\GitKraken\\Stealth_Game_UE\\StealthGame\\Source\\FPSGame.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "FPSGameEditor",
-			"Path": "F:\\UNREAL ENGINE PROJECTS\\StealthGame_ProjectBase_4.25\\StealthGame\\Source\\FPSGameEditor.Target.cs",
+			"Path": "F:\\GitKraken\\Stealth_Game_UE\\StealthGame\\Source\\FPSGameEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
