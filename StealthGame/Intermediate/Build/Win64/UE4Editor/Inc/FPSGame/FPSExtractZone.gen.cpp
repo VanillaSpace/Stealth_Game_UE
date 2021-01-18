@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSExtractZone() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDecalComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
@@ -137,6 +138,10 @@ void EmptyLinkFunctionForGeneratedCodeFPSExtractZone() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ObjectiveMissingSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ObjectiveMissingSound;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DecalComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DecalComp;
@@ -162,6 +167,15 @@ void EmptyLinkFunctionForGeneratedCodeFPSExtractZone() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_ObjectiveMissingSound_MetaData[] = {
+		{ "Category", "Sounds" },
+		{ "Comment", "/*if the player goes to the extract zone without the objective, it will make a sound*/" },
+		{ "ModuleRelativePath", "Public/FPSExtractZone.h" },
+		{ "ToolTip", "if the player goes to the extract zone without the objective, it will make a sound" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_ObjectiveMissingSound = { "ObjectiveMissingSound", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSExtractZone, ObjectiveMissingSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_ObjectiveMissingSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_ObjectiveMissingSound_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_DecalComp_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
@@ -178,6 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSExtractZone() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_OverlapComp = { "OverlapComp", nullptr, (EPropertyFlags)0x00200800000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSExtractZone, OverlapComp), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_OverlapComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_OverlapComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFPSExtractZone_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_ObjectiveMissingSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_DecalComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSExtractZone_Statics::NewProp_OverlapComp,
 	};
@@ -208,7 +223,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSExtractZone() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSExtractZone, 3023232467);
+	IMPLEMENT_CLASS(AFPSExtractZone, 683488472);
 	template<> FPSGAME_API UClass* StaticClass<AFPSExtractZone>()
 	{
 		return AFPSExtractZone::StaticClass();

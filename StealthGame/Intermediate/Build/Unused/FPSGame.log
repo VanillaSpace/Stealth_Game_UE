@@ -9,11 +9,13 @@
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
   Building 4 actions with 16 processes...
-    [1/4] FPSExtractZone.cpp
-    [2/4] UE4Editor-FPSGame-0041.lib
-       Creating library F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0041.lib and object F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0041.exp
-    [3/4] UE4Editor-FPSGame-0041.dll
-       Creating library F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0041.suppressed.lib and object F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0041.suppressed.exp
+    [1/4] FPSGameMode.cpp
+F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(34): warning C4456: declaration of 'NewViewTarget' hides previous local declaration
+    F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(31): note: see declaration of 'NewViewTarget'
+    [2/4] UE4Editor-FPSGame-0082.lib
+       Creating library F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.lib and object F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.exp
+    [3/4] UE4Editor-FPSGame-0082.dll
+       Creating library F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.suppressed.lib and object F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.suppressed.exp
     [4/4] FPSGameEditor.target
-  Total time in Parallel executor: 1.62 seconds
-  Total execution time: 2.32 seconds
+  Total time in Parallel executor: 1.93 seconds
+  Total execution time: 2.56 seconds
