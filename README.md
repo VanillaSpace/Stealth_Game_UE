@@ -4,4 +4,4 @@
 
 ## Current Features
 ![MissionCompleteCamera (1)](https://user-images.githubusercontent.com/26191487/104862627-8966ff00-5901-11eb-9ad5-2ff5c3e1e379.gif)
-     Extraction Zone - After the player collects the loot/treasure
+* Extraction Zone - After the player collects the loot/treasure</p>
