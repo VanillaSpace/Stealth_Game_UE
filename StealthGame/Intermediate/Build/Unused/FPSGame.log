@@ -1,4 +1,4 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\GitKraken\Stealth_Game_UE).
   Building FPSGameEditor...
   Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -8,7 +8,14 @@
   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
-  Building 1 action with 16 processes...
-    [1/1] FPSGameEditor.target
-  Total time in Parallel executor: 0.22 seconds
-  Total execution time: 0.87 seconds
+  Building 4 actions with 16 processes...
+    [1/4] FPSGameMode.cpp
+F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(34): warning C4456: declaration of 'NewViewTarget' hides previous local declaration
+    F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(31): note: see declaration of 'NewViewTarget'
+    [2/4] UE4Editor-FPSGame-0082.lib
+       Creating library F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.lib and object F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.exp
+    [3/4] UE4Editor-FPSGame-0082.dll
+       Creating library F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.suppressed.lib and object F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0082.suppressed.exp
+    [4/4] FPSGameEditor.target
+  Total time in Parallel executor: 1.93 seconds
+  Total execution time: 2.56 seconds

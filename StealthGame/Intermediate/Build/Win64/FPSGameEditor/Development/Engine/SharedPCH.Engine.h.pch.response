@@ -256,11 +256,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I "F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine"
-/Yc"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine
+/Yc"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
