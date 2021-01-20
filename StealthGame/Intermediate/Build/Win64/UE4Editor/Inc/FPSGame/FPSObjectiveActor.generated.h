@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSObjectiveActor); \
 #define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(AFPSObjectiveActor, MeshComp); } \
 	FORCEINLINE static uint32 __PPO__SphereComp() { return STRUCT_OFFSET(AFPSObjectiveActor, SphereComp); } \
-	FORCEINLINE static uint32 __PPO__PickupFX() { return STRUCT_OFFSET(AFPSObjectiveActor, PickupFX); }
+	FORCEINLINE static uint32 __PPO__PickupFX() { return STRUCT_OFFSET(AFPSObjectiveActor, PickupFX); } \
+	FORCEINLINE static uint32 __PPO__PickupSFX() { return STRUCT_OFFSET(AFPSObjectiveActor, PickupSFX); }
 
 
 #define StealthGame_Source_FPSGame_Public_FPSObjectiveActor_h_11_PROLOG
