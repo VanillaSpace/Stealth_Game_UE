@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPSGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{14DC5D6C-552F-4FCE-A59A-FA160BB6E923}</UniqueIdentifier>
+      <UniqueIdentifier>{6A2E460E-8727-4A78-BF88-75F808B6021D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{45ADE236-26F2-4C0F-BC02-262D23D09A88}</UniqueIdentifier>
+      <UniqueIdentifier>{9B435C8E-E3B0-4056-A9D9-DB9AF46CBA4B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FPSGame">
-      <UniqueIdentifier>{365279AD-15E4-42AB-9644-72340A85C368}</UniqueIdentifier>
+      <UniqueIdentifier>{E4789FAA-CA57-44C3-BF3D-04D677604D80}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSGame\FPSGame.Build.cs">
       <Filter>Source\FPSGame</Filter>
@@ -39,9 +39,12 @@
       <Filter>Source\FPSGame</Filter>
     </ClInclude>
     <Filter Include="Source\FPSGame\Private">
-      <UniqueIdentifier>{25A20C2A-A307-4DF3-BF08-77B21460F3E5}</UniqueIdentifier>
+      <UniqueIdentifier>{2799B32E-C944-4C59-802F-1832D09FB39B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPSGame\Private\AFPSLaunchPad.cpp">
+      <Filter>Source\FPSGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSGame\Private\FPSAIGaurd.cpp">
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSCharacter.cpp">
@@ -63,9 +66,12 @@
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\FPSGame\Public">
-      <UniqueIdentifier>{E49CDF63-B800-496F-8047-89D9C7971CE5}</UniqueIdentifier>
+      <UniqueIdentifier>{443D5A15-99B1-4937-98FE-CF7EF3C7FE88}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FPSGame\Public\AFPSLaunchPad.h">
+      <Filter>Source\FPSGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSGame\Public\FPSAIGaurd.h">
       <Filter>Source\FPSGame\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSCharacter.h">

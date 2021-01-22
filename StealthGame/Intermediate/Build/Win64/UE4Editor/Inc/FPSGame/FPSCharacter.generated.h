@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPSGAME_FPSCharacter_generated_h
 
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_SPARSE_DATA
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_RPC_WRAPPERS
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_INCLASS_NO_PURE_DECLS \
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_SPARSE_DATA
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_RPC_WRAPPERS
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSCharacter(); \
 	friend struct Z_Construct_UClass_AFPSCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AFPSCharacter)
 
 
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_INCLASS \
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_INCLASS \
 private: \
 	static void StaticRegisterNativesAFPSCharacter(); \
 	friend struct Z_Construct_UClass_AFPSCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AFPSCharacter)
 
 
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_STANDARD_CONSTRUCTORS \
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFPSCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFPSCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_ENHANCED_CONSTRUCTORS \
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFPSCharacter(AFPSCharacter&&); \
@@ -58,33 +58,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFPSCharacter)
 
 
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1PComponent() { return STRUCT_OFFSET(AFPSCharacter, Mesh1PComponent); } \
 	FORCEINLINE static uint32 __PPO__GunMeshComponent() { return STRUCT_OFFSET(AFPSCharacter, GunMeshComponent); } \
-	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AFPSCharacter, CameraComponent); }
+	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AFPSCharacter, CameraComponent); } \
+	FORCEINLINE static uint32 __PPO__NoiseEmitterComponent() { return STRUCT_OFFSET(AFPSCharacter, NoiseEmitterComponent); }
 
 
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_17_PROLOG
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_GENERATED_BODY_LEGACY \
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_18_PROLOG
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_SPARSE_DATA \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_RPC_WRAPPERS \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_INCLASS \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_STANDARD_CONSTRUCTORS \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_SPARSE_DATA \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_RPC_WRAPPERS \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_INCLASS \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_GENERATED_BODY \
+#define StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_SPARSE_DATA \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_INCLASS_NO_PURE_DECLS \
-	StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_ENHANCED_CONSTRUCTORS \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_SPARSE_DATA \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_INCLASS_NO_PURE_DECLS \
+	StealthGame_Source_FPSGame_Public_FPSCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

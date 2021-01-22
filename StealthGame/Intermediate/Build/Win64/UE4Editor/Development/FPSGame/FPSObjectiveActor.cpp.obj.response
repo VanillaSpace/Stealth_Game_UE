@@ -29,7 +29,7 @@
 /wd4244
 /wd4838
 /I .
-/I F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Private
+/I "F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Source\FPSGame\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -542,10 +542,10 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame
-/I F:\GitKraken\Stealth_Game_UE\StealthGame\Source
-/I F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Public
-/I F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame
+/I "F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame"
+/I "F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Source"
+/I "F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Source\FPSGame\Public"
+/I "F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Source\FPSGame"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -575,12 +575,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Private\FPSObjectiveActor.cpp"
-/FI"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h"
-/Fo"F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\FPSObjectiveActor.cpp.obj"
+/FI"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Source\FPSGame\Private\FPSObjectiveActor.cpp"
+/FI"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h"
+/Fo"F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\FPSObjectiveActor.cpp.obj"
 /TP
 /GR-
 /W4

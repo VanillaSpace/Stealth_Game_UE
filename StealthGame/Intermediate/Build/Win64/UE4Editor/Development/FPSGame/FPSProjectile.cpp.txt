@@ -1,6 +1,6 @@
-F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
-F:\GitKraken\Stealth_Game_UE\StealthGame\Source\FPSGame\Public\FPSProjectile.h
-F:\GitKraken\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
+F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Source\FPSGame\Public\FPSProjectile.h
+F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
 F:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
 F:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 F:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h

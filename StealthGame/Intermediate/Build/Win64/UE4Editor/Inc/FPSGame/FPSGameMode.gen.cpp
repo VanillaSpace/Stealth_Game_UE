@@ -22,10 +22,11 @@ void EmptyLinkFunctionForGeneratedCodeFPSGameMode() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	static FName NAME_AFPSGameMode_OnMissionCompleted = FName(TEXT("OnMissionCompleted"));
-	void AFPSGameMode::OnMissionCompleted(APawn* InstigatorPawn)
+	void AFPSGameMode::OnMissionCompleted(APawn* InstigatorPawn, bool bMissionSuccess)
 	{
 		FPSGameMode_eventOnMissionCompleted_Parms Parms;
 		Parms.InstigatorPawn=InstigatorPawn;
+		Parms.bMissionSuccess=bMissionSuccess ? true : false;
 		ProcessEvent(FindFunctionChecked(NAME_AFPSGameMode_OnMissionCompleted),&Parms);
 	}
 	void AFPSGameMode::StaticRegisterNativesAFPSGameMode()
@@ -33,6 +34,8 @@ void EmptyLinkFunctionForGeneratedCodeFPSGameMode() {}
 	}
 	struct Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics
 	{
+		static void NewProp_bMissionSuccess_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bMissionSuccess;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InstigatorPawn;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -40,8 +43,14 @@ void EmptyLinkFunctionForGeneratedCodeFPSGameMode() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
+	void Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics::NewProp_bMissionSuccess_SetBit(void* Obj)
+	{
+		((FPSGameMode_eventOnMissionCompleted_Parms*)Obj)->bMissionSuccess = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics::NewProp_bMissionSuccess = { "bMissionSuccess", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FPSGameMode_eventOnMissionCompleted_Parms), &Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics::NewProp_bMissionSuccess_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics::NewProp_InstigatorPawn = { "InstigatorPawn", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FPSGameMode_eventOnMissionCompleted_Parms, InstigatorPawn), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics::NewProp_bMissionSuccess,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted_Statics::NewProp_InstigatorPawn,
 	};
 #if WITH_METADATA
@@ -84,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FPSGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFPSGameMode_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted, "OnMissionCompleted" }, // 1837559426
+		{ &Z_Construct_UFunction_AFPSGameMode_OnMissionCompleted, "OnMissionCompleted" }, // 979594651
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSGameMode_Statics::Class_MetaDataParams[] = {
@@ -131,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSGameMode, 3285974257);
+	IMPLEMENT_CLASS(AFPSGameMode, 10331607);
 	template<> FPSGAME_API UClass* StaticClass<AFPSGameMode>()
 	{
 		return AFPSGameMode::StaticClass();
