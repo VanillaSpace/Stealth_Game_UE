@@ -1,2 +1,0 @@
-F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
-F:\UNREAL ENGINE PROJECTS\StealthGame_ProjectBase_4.25\Stealth_Game_UE\StealthGame\Source\FPSGame\FPSGame.h

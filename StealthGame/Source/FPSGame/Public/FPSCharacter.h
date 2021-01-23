@@ -53,14 +53,18 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Gameplay")
 	UAnimSequence* FireAnimation;
 
-	/** To check if the player is carrying an Objective */
-	UPROPERTY(BlueprintReadOnly, Category = "Gameplay")
+	/** To check if the player is carrying an Objective, replicated --> MP friendly */
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Gameplay")
 	bool bIsCarryingObjective;
 
 protected:
 	
 	/** Fires a projectile. */
 	void Fire();
+
+	/** Reliable -> will reach eventually, avoid packet lost */
+	UFUNCTION(Server, Reliable, WithValidation)
+	void ServerFire();
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);
@@ -76,6 +80,8 @@ public:
 
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return CameraComponent; }
+
+	virtual void Tick(float DeltaTime) override;
 
 };
 

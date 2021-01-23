@@ -35,7 +35,7 @@ void AFPSExtractZone::HandleOverlap(UPrimitiveComponent* OverlappedComponent, AA
 	{
 		return;
 	}
-
+	//we need to change this to make it okay for MP
 	if (MyPawn->bIsCarryingObjective)
 	{
 		AFPSGameMode* GM = Cast<AFPSGameMode>(GetWorld()->GetAuthGameMode());

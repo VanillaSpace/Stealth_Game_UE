@@ -5,6 +5,7 @@
 #include "Perception/PawnSensingComponent.h"
 #include "DrawDebugHelpers.h"
 #include "FPSGameMode.h"
+#include "Net/UnrealNetwork.h"
 
 
 // Sets default values
@@ -89,6 +90,13 @@ void AFPSAIGaurd::ResetOrientation()
 	SetGaurdState(EAIState::Idle);
 }
 
+void AFPSAIGaurd::OnRep_GaurdState()
+{
+	OnStateChanged(GaurdState);
+
+
+}
+
 void AFPSAIGaurd::SetGaurdState(EAIState NewState)
 {
 	if (GaurdState == NewState)
@@ -97,8 +105,7 @@ void AFPSAIGaurd::SetGaurdState(EAIState NewState)
 	}
 
 	GaurdState = NewState;
-
-	OnStateChanged(GaurdState);
+	OnRep_GaurdState();
 }
 
 
@@ -106,5 +113,12 @@ void AFPSAIGaurd::SetGaurdState(EAIState NewState)
 void AFPSAIGaurd::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void AFPSAIGaurd::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AFPSAIGaurd, GaurdState);
 }
 

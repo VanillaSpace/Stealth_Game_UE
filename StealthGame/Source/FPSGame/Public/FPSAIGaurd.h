@@ -47,8 +47,11 @@ protected:
 
 	FTimerHandle TimerHandle_ResetOrientation;
 
-
+	UPROPERTY(ReplicatedUsing=OnRep_GaurdState)
 	EAIState GaurdState;
+
+	UFUNCTION()
+	void OnRep_GaurdState();
 
 	void SetGaurdState(EAIState NewState);
 
