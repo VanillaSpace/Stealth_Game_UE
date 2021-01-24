@@ -18,7 +18,7 @@
 
 ### ZIP File
 
-1. Download the game file [here](https://www.dropbox.com/s/tyvwjheuqjcxgue/StealthGame_EXE.zip?dl=0).
+1. Download the game file [HERE](https://www.dropbox.com/s/tyvwjheuqjcxgue/StealthGame_EXE.zip?dl=0).
 2. Unzip the folder.
 3. Run the EXE file -`FPSGame.exe`.
 
