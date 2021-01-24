@@ -47,7 +47,7 @@
 
 # Features
 
-	- Game Objective is to Extract to an 'extraction zone'
+	- Game Objective is to extract loot to the 'extraction zone'
 	- AI Guard senses players and noises
 	- First Person Weapon that can distract Guard AI (Shoot Projectiles at wall)
 	- If AI is alerted its 'game over'.
