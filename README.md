@@ -1,7 +1,7 @@
 <h1 align="center">Grab n' Escape</h1>
   
 <p align="center">
-  <a href="#Grabn'Escape">Overview</a> |
+  <a href="#features">Features</a> |
   <a href="#installation">Installation</a> |
   <a href="#multiplayer">Multiplayer</a>
 </p>
